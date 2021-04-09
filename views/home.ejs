@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            <%= title %>
+        </title>
+        
+        <!-- All external files rendered from assets folder -->
+        <link rel="stylesheet" type="text/css" href="/css/home.css">
+        
+    </head>
+    <body>
+        <h1 id="page-heading">
+            <%= title %>
+        </h1>
+
+        <hr>
+
+        <div id="main-div">
+            <div class="folder">
+                <a href="/tasks/today">
+                    <!-- <h4> <b> Today </b></h4> -->
+                    <img src="/images/today.jpg">
+                </a>      
+            </div>
+            <div class="folder">
+                <a href="/tasks/events">
+                    <img src="/images/events.jfif">
+                    <!-- <h4> <b> Events </b></h4> -->
+                </a>      
+            </div>
+            <div class="folder">
+                <a href="/tasks/projects">
+                    <!-- <h4> <b> Projects </b></h4> -->
+                    <img src="/images/projects.jpg">
+                </a>      
+            </div>
+            <div class="folder">
+                <a href="/all_lists">
+                    <!-- <h4> <b> Lists </b></h4> -->
+                    <img src="/images/lists.jfif">
+                </a>      
+            </div>
+        </div>
+    </body>
+</html>

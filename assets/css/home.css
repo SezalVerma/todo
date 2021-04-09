@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(97 25 50);
+    margin: 0px;
+}
+
+#page-heading{
+    text-align: center;
+    padding-top: 1.5%;
+    font-family: Lucida Handwriting;
+    font-size: xxx-large;
+}
+
+#main-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 40%;
+    margin-top : 10%;
+
+}
+
+.folder{
+    display: inline-block;
+    width: 20%;
+    margin: 1%;
+}
+
+.folder a{
+    text-decoration: none;
+}
+
+.folder img{
+    height: 100%;
+    width: 100%;
+}
+
+.folder img:hover{
+    opacity : 0.7;
+    border: antiquewhite;
+    box-shadow: 4px 4px 4px 1px rgb(71, 58, 92);
+}
+
+.folder h4{
+    text-align: center;
+    justify-content: center;
+}
